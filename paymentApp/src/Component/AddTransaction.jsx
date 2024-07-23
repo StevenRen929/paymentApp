@@ -34,7 +34,7 @@ const AddTransaction = () => {
             {/* onchange 是当输入文字时把输入的东西放在text state里面 */}
           </div>
           <div className="form-control">
-            <label>Add Event Name</label>
+            <label>Enter amount:</label>
             <input 
             type="number" 
             value={amount} 
